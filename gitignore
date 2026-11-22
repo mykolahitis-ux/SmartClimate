@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Node / web dashboard
+node_modules/
+dist/
+npm-debug.log*
+
+# ESP32 / PlatformIO / Arduino / ESP-IDF
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+sdkconfig.old
+*.bin
+*.elf
+*.map
+
+# Secrets and local config
+.env
+.env.*
+secrets.h
+secrets.py
+config.local.*
+*.pem
+*.key
+*.crt
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temp
+*.log
+*.tmp
